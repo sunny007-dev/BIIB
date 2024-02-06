@@ -1,0 +1,14 @@
+{
+    "name": "Menus",
+    "alias": "menus",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Menus\\Providers\\MenusServiceProvider",
+        "Modules\\Menus\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

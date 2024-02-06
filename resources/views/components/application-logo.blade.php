@@ -1,0 +1,1 @@
+<img src="{{asset('img/biibLogo.webp')}}" style="height: 150px;">

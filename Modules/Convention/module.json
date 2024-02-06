@@ -1,0 +1,14 @@
+{
+    "name": "Convention",
+    "alias": "convention",
+    "description": "Convention module for biib",
+    "keywords": ["conventions", "convention"],
+    "order": 0,
+    "providers": [
+        "Modules\\Convention\\Providers\\ConventionServiceProvider",
+        "Modules\\Convention\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Loan",
+    "alias": "loan",
+    "description": "Loan module for biib",
+    "keywords": ["loans", "loan"],
+    "order": 0,
+    "providers": [
+        "Modules\\Loan\\Providers\\LoanServiceProvider",
+        "Modules\\Loan\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

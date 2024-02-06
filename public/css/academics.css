@@ -1,0 +1,48 @@
+.academicspage .pagesHeading {
+    font-family: "josefin-sans";
+    font-size: var(--font-36);
+    line-height: 48px;
+    color: var(--primary-blue);
+}
+
+.academicspage p {
+    line-height: 32px;
+}
+
+.academicspage {
+    background-color: #F9F9F9;
+}
+.academicspage .card .card-title {
+    color: var(--primary-blue);
+}
+.academicspage .card .card-text {
+    color: #000;
+}
+.academicspage .inductionDetail {
+    min-height: 12rem;
+}
+
+.academicspage .card:hover{
+    cursor: pointer;
+    background-color: var(--primary-blue);
+}
+.academicspage .card:hover .card-title{
+    color: var(--bs-white);
+}
+.academicspage .card:hover .card-text{
+    color: var(--bs-white);
+}
+@media (max-width: 767px) {
+    .academicspage .pagesHeading {
+        font-size: var(--font-28);
+        line-height: 34px;
+    }
+    .academicspage p {
+        text-align: justify;
+    }
+}
+@media (max-width: 574px) {
+    .academicspage .inductionDetail {
+        min-height: auto;
+    }
+}

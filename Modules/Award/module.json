@@ -1,0 +1,14 @@
+{
+    "name": "Award",
+    "alias": "award",
+    "description": "Award module for BIIB, biib/cms-dashboard. It can be used with any other Models. One to many polymorphic relation.",
+    "keywords": ["awards", "award"],
+    "order": 0,
+    "providers": [
+        "Modules\\Award\\Providers\\AwardServiceProvider",
+        "Modules\\Award\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,27 @@
+{
+    "name": "biib/gallery-module",
+    "description": "Gallery module for BIIB. It can be used with any other Model.",
+    "type": "laravel-module",
+    "version": "v3.0.0",
+    "authors": [
+        {
+            "name": "biib"
+            
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Gallery\\Providers\\GalleryServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Gallery\\": ""
+        }
+    }
+}

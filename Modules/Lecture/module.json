@@ -1,0 +1,14 @@
+{
+    "name": "Lecture",
+    "alias": "lectures",
+    "description": "Lecture module for biib",
+    "keywords": ["lectures", "lecture"],
+    "order": 0,
+    "providers": [
+        "Modules\\Lecture\\Providers\\LectureServiceProvider",
+        "Modules\\Lecture\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

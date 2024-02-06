@@ -1,0 +1,14 @@
+{
+    "name": "Dates",
+    "alias": "dates",
+    "description": "Dates module for BIIB, biib/cms-dashboard. It can be used with any other Models.",
+    "keywords": ["date", "dates"],
+    "order": 0,
+    "providers": [
+        "Modules\\Dates\\Providers\\DatesServiceProvider",
+        "Modules\\Dates\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

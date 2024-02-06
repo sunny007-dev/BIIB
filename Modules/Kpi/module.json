@@ -1,0 +1,14 @@
+{
+    "name": "Kpi",
+    "alias": "kpi",
+    "description": "Kpi module for biib",
+    "keywords": ["kpis", "kpi"],
+    "order": 0,
+    "providers": [
+        "Modules\\Kpi\\Providers\\KpiServiceProvider",
+        "Modules\\Kpi\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

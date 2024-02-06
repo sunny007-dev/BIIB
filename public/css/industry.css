@@ -1,0 +1,111 @@
+.industryPage {
+    background-color: #F9F9F9;
+}
+.industryPage .pagesHeading {
+    font-family: "josefin-sans";
+    font-size: var(--font-36);
+    line-height: 48px;
+    color: var(--primary-blue);
+}
+
+.industryPage p {
+    line-height: 32px;
+}
+.industryPage .pagesCard .imge .guestPic{
+    height: 302px;
+    object-fit: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 79%, 0% 100%);
+}
+.industryPage .pagesCard .imge{
+    position: relative;
+}
+.industryPage .pagesCard .imge .playIcon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    visibility: visible;
+}
+.industryPage .pagesCard .imge .playIcon img{
+    width: 78px;
+    height: 78px;
+ }
+.industryPage .pagesCard .card-body .card-title{
+    font-size: var(--font-24);
+    line-height: 32px;
+    color: var(--primary-blue);
+    min-height: 64px;
+    font-family: 'josefin-sans';
+    overflow: hidden;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+.industryPage .pagesCard .card-body .card-text{
+    font-size: var(--font-16);
+    line-height: 28px;
+    color: #3F3F3F;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    overflow: hidden;
+    height: 88px;
+}
+.industryPage .pagesCard:hover .imge .playIcon {
+    visibility: visible;
+}
+.industryPage .pagesCard:hover {
+    background-color: var(--primary-blue);
+    cursor: pointer;
+    transition: all .3s linear;
+}
+.industryPage .pagesCard:hover .imge .guestPic {
+    opacity: .6;
+}
+
+.industryPage .pagesCard:hover .card-title,
+.industryPage .pagesCard:hover .card-text{
+    color: var(--bs-white);
+}
+.industryPage .accordion .accordion-button{
+    font-family: 'josefin-sans';
+}
+.industryPage .accordion .accordion-button:not(.collapsed) {
+    color: var(--bs-white);
+    background-color: var(--primary-green);
+}
+.industryPage .accordion .accordion-button:not(.collapsed):focus {
+    box-shadow: none;
+}
+.industryPage .accordion .accordion-button:not(.collapsed) .accordion-body {
+    border: 2px solid var(--primary-green);
+    border-top: 0;
+}
+/** Sorting List **/
+.industryPage .sortingList table thead{
+    background-color: var(--primary-green);
+    color: var(--bs-white);
+    font-size: var(--font-16);
+    font-weight: var(--font-600);
+    font-family: 'josefin-sans';
+}
+.industryPage .sortingList table tbody{
+    background-color: var(--primary-blue);
+    color: var(--bs-white);
+    font-size: var(--font-14);
+    font-family: 'josefin-sans';
+}
+/** Sorting List End **/
+
+
+@media (max-width: 767px) {
+    .industryPage .pagesHeading {
+        font-size: var(--font-28);
+        line-height: 34px;
+    }
+    .industryPage p {
+        text-align: justify;
+    }
+}

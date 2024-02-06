@@ -1,0 +1,14 @@
+{
+    "name": "BrochureLink",
+    "alias": "brochureLink",
+    "description": "Brochure Link module for biib",
+    "keywords": ["brochureLink"],
+    "order": 0,
+    "providers": [
+        "Modules\\BrochureLink\\Providers\\BrochureLinkServiceProvider",
+        "Modules\\BrochureLink\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

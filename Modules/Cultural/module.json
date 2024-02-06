@@ -1,0 +1,14 @@
+{
+    "name": "Cultural",
+    "alias": "cultural",
+    "description": "Cultural module for biib",
+    "keywords": ["culturals", "cultural"],
+    "order": 0,
+    "providers": [
+        "Modules\\Cultural\\Providers\\CulturalServiceProvider",
+        "Modules\\Cultural\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

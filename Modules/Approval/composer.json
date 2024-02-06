@@ -1,0 +1,26 @@
+{
+    "name": "biib/approval-module",
+    "description": "Approval module for BIIB",
+    "type": "laravel-module",
+    "version": "v3.0.0",
+    "authors": [
+        {
+            "name": "BIIB"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Approval\\Providers\\ApprovalServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Approval\\": ""
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Recruitment",
+    "alias": "recruitment",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Recruitment\\Providers\\RecruitmentServiceProvider",
+        "Modules\\Recruitment\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

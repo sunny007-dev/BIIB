@@ -1,0 +1,173 @@
+.facultyPage {
+  background-color: #F9F9F9;
+}
+
+.facultyPage .pagesHeading {
+  font-family: "josefin-sans";
+  font-size: var(--font-36);
+  line-height: 48px;
+  color: var(--primary-blue);
+}
+
+.facultyPage p {
+  /*line-height: 32px;*/
+}
+.facultyPage {
+    background-color: #F9F9F9;
+}
+.facultyPage .card .card-body .facultyImg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 300px;
+}
+.facultyPage .card .card-body .facultyTitle {
+    font-size: var(--font-26);
+    font-weight: var(--font-500);
+    line-height: 30px;
+    color: var(--primary-blue);
+}
+.facultyPage .card .card-body .designation {
+    font-size: var(--font-16);
+    font-weight: var(--font-500);
+    line-height: 24px;
+    color: var(--primary-blue);
+}
+
+.facultyPage .card .card-body .bio,
+.facultyPage .card .card-body .publication  {
+    font-size: var(--font-24);
+    color: var(--primary-blue);
+    line-height: 28px;
+}
+.facultyPage .card .card-body .bioContent {
+    font-size: var(--font-18);
+    color: #484848;
+    line-height: 28px;
+}
+.publictionList {
+    list-style: none;
+    padding-inline-start: 0;
+}
+.publictionList li::before{
+    content: '';
+    background: url(./../img/faculty/facultyList.png);
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    display: inline-flex;
+    background-size: contain;
+    margin-right: 12px;
+}
+.facultyPage .relatedFaculty .teamImg .imge{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 344px;
+    clip-path: polygon(0 0, 100% 0, 100% 79%, 0% 100%);
+    background-position: center;
+}
+.facultyPage .relatedFaculty .teamImg .eventImge{
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 344px;
+  background-position: center;
+}
+    .facultyPage .relatedFaculty .card {
+        box-shadow: 0px 0px 7px rgba(119, 119, 119, 0.21);
+        border-radius: 8px;
+    }
+
+  .facultyPage .relatedFaculty .card .card-body .line {
+    height: 2px;
+    width: 100%;
+    background-color: var(--primary-blue);
+  }
+  .facultyPage .relatedFaculty .card .card-body .card-title {
+    color: var(--primary-blue);
+    height: 36px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-16);
+    justify-content: center;
+    font-weight: var(--font-600);
+    line-height: 20px;
+  }
+  .facultyPage .relatedFaculty .card .card-body .card-text {
+    color: #484848;
+    font-size: var(--font-14);
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    overflow: hidden;
+    height: 66px;
+    line-height: 24px;
+  }
+  .facultyPage .relatedFaculty .card .card-body .card-text p {
+    color: #484848;
+  }
+  .facultyPage .relatedFaculty .card:hover {
+    background-color: var(--primary-blue);
+    transition: var(--transition);
+  }
+  .facultyPage .relatedFaculty .card:hover .card-body .line {
+    background-color: var(--bs-white);
+  }
+  .facultyPage .relatedFaculty .card:hover .card-body .card-title, .facultyPage .relatedFaculty .card:hover .card-body .card-text p,.facultyPage .relatedFaculty .card:hover .card-body .card-text {
+    color: var(--bs-white);
+  }
+    .facultyPage .card .card-body .eventDate {
+      font-family: 'josefin-sans';
+      color: var(--primary-blue);
+      
+  }
+  .facultyPage .card .card-body .eventDate i{
+    color: var(--primary-green);
+  }
+  
+.facultyPage .detailsTabs .innerTab {
+  padding: 15px 0px;
+  margin-right: 20px;
+  color: #777 !important;
+  line-height: 22px;
+  font-family: 'josefin-sans';
+  font-size: var(--font-18);
+  transition: all .5s ease;
+  border: 0;
+}
+.facultyPage .detailsTabs .innerTab.active {   
+  background-color: #fff !important;
+  color: var(--primary-blue) !important;
+  border-bottom: 3px solid var(--primary-blue);
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.facultyPage .sortingList table thead{
+  background-color: var(--primary-green);
+  color: var(--bs-white);
+  font-size: var(--font-16);
+  font-weight: var(--font-600);
+  font-family: 'josefin-sans';
+}
+.facultyPage .sortingList table tbody{
+  background-color: var(--primary-blue);
+  color: var(--bs-white);
+  font-size: var(--font-14);
+  font-family: 'josefin-sans';
+}
+
+.facultyPage .card .linkedInDetail{
+  position: absolute;
+  top: calc(100% - 164%);
+  right: 10px;
+}
+@media only screen and (max-width: 991px) {
+  .facultyPage .card .linkedInDetail {
+    top: 0; 
+  }
+  .facultyPage .card .linkedInDetail i{
+      font-size: 30px;
+  }
+}

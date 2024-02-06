@@ -1,0 +1,14 @@
+{
+    "name": "Contact",
+    "alias": "contact",
+    "description": "Contact module for Laravel Starter, nasirkhan/laravel-starter. It can be used with any other Models. One to many polymorphic relation.",
+    "keywords": ["contacts", "contact"],
+    "order": 0,
+    "providers": [
+        "Modules\\Contact\\Providers\\ContactServiceProvider",
+        "Modules\\Contact\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

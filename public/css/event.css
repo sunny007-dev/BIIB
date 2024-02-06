@@ -1,0 +1,94 @@
+.eventpage .events {
+    /* background-color: var(--primary-blue); */
+    position: var(--position-relative);
+  }
+  .eventpage .events .eventsHr {
+    position: var(--position-absolute);
+    left: var(--left-0);
+    top: calc(100% - 67%);
+  }
+  .eventpage .events .eventsHr img{
+    width: 92px;
+  }
+  .eventpage .events .main-heading {
+    color: var(--primary-green);
+  }
+  .eventpage .events .card .imageSection {
+    position: var(--position-relative);
+  }
+  .eventpage .events .card .imageSection .imge {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 284px;
+    /* height: 306px; */
+    /*clip-path: polygon(0 0, 100% 0, 100% 79%, 0% 100%);*/
+    border-radius: 0px;
+    /* height: 284px; */
+    /* object-fit: var(--object-cover); */
+  }
+  .eventpage .events .card .imageSection .dateSection {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  .eventpage .events .card .imageSection .dateSection .info {
+    background-color: var(--primary-green);
+    padding: 5px 18px;
+  }
+  .eventpage .events .card .card-body img {
+    height: 310px;
+    object-fit: cover;
+  }
+  .eventpage .events .card .card-body .eventTitle {
+    font-size: var(--font-24);
+    line-height: 32px;
+    font-weight: var(--font-600);
+    color: var(--primary-blue);
+    height: 58px;
+  }
+  .eventpage .events .card .card-body .description {
+    height: 102px;
+  }
+  .eventpage .events .card .card-body p {
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    overflow: hidden;
+    height: 102px;
+  }
+  .eventpage .events .card .card-body .card-text{
+    color: #000;
+  }
+  .eventpage .events .card .card-body .muted {
+    font-size: var(--font-14);
+    color: #C0C0C0;
+  }
+  .eventpage .events .eventsBtn {
+    background-color: var(--bs-white);
+    color: #2d2d2d;
+  }
+  .eventpage .events .eventsBtn:hover {
+    color: var(--bs-white);
+  }
+
+  .eventpage .events .card:hover{
+    background-color: var(--primary-blue);
+  }
+  .eventpage .events .card:hover .card-body .eventTitle,
+  .eventpage .events .card:hover .card-body .card-text
+  {
+    color: var(--bs-white);
+  }
+  @media screen and (max-width: 767px) {
+    .eventpage .events .card .card-body .description {
+        height: auto;
+    }
+    .eventpage .events .card .card-body .eventTitle {
+        height: auto;
+    }
+    .eventpage .events .card .card-body p {
+        display: block !important;
+        height: auto;
+    }
+  }

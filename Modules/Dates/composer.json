@@ -1,0 +1,26 @@
+{
+    "name": "biib/dates-module",
+    "description": "Dates module for Laravel Starter, biib/cms-dashboard. It can be used with any other Models. One to many polymorphic relation.",
+    "type": "laravel-module",
+    "version": "v3.0.0",
+    "authors": [
+        {
+            "name": "biib"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Dates\\Providers\\DatesServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Dates\\": ""
+        }
+    }
+}

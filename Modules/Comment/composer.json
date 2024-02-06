@@ -1,0 +1,26 @@
+{
+    "name": "biib/comment-module",
+    "description": "Comment module for Laravel Starter, One to many polymorphic relation.",
+    "type": "laravel-module",
+    "version": "v3.0.0",
+    "authors": [
+        {
+            "name": "biib"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Comment\\Providers\\CommentServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Comment\\": ""
+        }
+    }
+}

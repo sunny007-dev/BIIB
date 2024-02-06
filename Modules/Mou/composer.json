@@ -1,0 +1,26 @@
+{
+    "name": "biib/mou-module",
+    "description": "Mou module for Laravel Starter, biib/cms-dashboard. It can be used with any other Models. One to many polymorphic relation.",
+    "type": "laravel-module",
+    "version": "v3.0.0",
+    "authors": [
+        {
+            "name": "biib"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Mou\\Providers\\MouServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Mou\\": ""
+        }
+    }
+}

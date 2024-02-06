@@ -1,0 +1,14 @@
+{
+    "name": "Course",
+    "alias": "course",
+    "description": "Course module for biib",
+    "keywords": ["courses", "course"],
+    "order": 0,
+    "providers": [
+        "Modules\\Course\\Providers\\CourseServiceProvider",
+        "Modules\\Course\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

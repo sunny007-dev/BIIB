@@ -1,0 +1,27 @@
+{
+    "name": "biib/alumni-module",
+    "description": "Alumni module for BIIB. It can be used with any other Model.",
+    "type": "laravel-module",
+    "version": "v3.0.0",
+    "authors": [
+        {
+            "name": "biib"
+            
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Alumni\\Providers\\AlumniServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Alumni\\": ""
+        }
+    }
+}

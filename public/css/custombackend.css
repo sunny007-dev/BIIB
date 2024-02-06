@@ -1,0 +1,66 @@
+.pagesTable  .card-title{
+    color: #81839B;
+    font-size: 26px;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+.pagesTable .btn-toolbar .addBtn {
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+}
+.pagesTable .btn-toolbar .settingBtn {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #F4F4F4;
+    border-color: transparent;
+}
+
+.table > :not(caption) > * > *{
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}
+.table tr.odd{
+    background: #D7EBDB;
+}
+table.dataTable>thead>tr>th{
+    font-size: 18px;
+}
+table.dataTable>tbody .btn-primary{
+    background-color: #192F59;
+}
+
+.sidebar-fixed {
+    background-color: #192F59;
+}
+
+.sidebar-fixed.sidebar-narrow-unfoldable:not(:hover) .sidebar-nav {
+    padding: 2px !important;
+    background-color: #192F59;
+}
+
+.sidebar-fixed.sidebar-narrow-unfoldable:not(:hover) .sidebar-nav .nav-link.active {
+    background-color: #fff;
+    padding: 0.4rem 0.845rem;
+}
+.sidebar-fixed.sidebar-narrow-unfoldable:not(:hover) .sidebar-nav .nav-link.active .nav-icon {
+    color: #192F59;
+}
+.sidebar-fixed.sidebar-narrow-unfoldable:not(:hover) .sidebar-nav .nav-link .nav-icon {
+    font-size: 1rem;
+    height: auto;
+}
+
+.sidebar-fixed.sidebar-narrow-unfoldable:not(:hover) .sidebar-brand{
+    padding: 0;
+    justify-content: center;
+    background-color: #192F59;
+}
+
+@media (min-width: 1400px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl{
+        max-width: 100% !important;
+    }
+}

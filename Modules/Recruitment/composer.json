@@ -1,0 +1,26 @@
+{
+    "name": "biib/recruitment-module",
+    "description": "Recruitment module with Research, Certification. It works with biib/cms-dashboard-module",
+    "type": "laravel-module",
+    "version": "v3.0.0",
+    "authors": [
+        {
+            "name": "Pulseplay"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Recruitment\\Providers\\TeamServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Recruitment\\": ""
+        }
+    }
+}

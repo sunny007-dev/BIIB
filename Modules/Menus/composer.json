@@ -1,0 +1,26 @@
+{
+    "name": "biib/menus-module",
+    "description": "Menus module for BIIB",
+    "type": "laravel-module",
+    "version": "v3.0.0",
+    "authors": [
+        {
+            "name": "BIIB"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Menus\\Providers\\MenusServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Menus\\": ""
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "biib/banner-module",
+    "description": "Banner module for BIIB. It can be used with any other Model.",
+    "type": "laravel-module",
+    "version": "v3.0.0",
+    "authors": [
+        {
+            "name": "biib"
+            
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Banner\\Providers\\BannerServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Banner\\": ""
+        }
+    }
+}

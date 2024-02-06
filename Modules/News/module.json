@@ -1,0 +1,14 @@
+{
+    "name": "News",
+    "alias": "news",
+    "description": "News module for BIIB, biib/cms-dashboard. It can be used with any other Models.",
+    "keywords": ["newss", "news"],
+    "order": 0,
+    "providers": [
+        "Modules\\News\\Providers\\NewsServiceProvider",
+        "Modules\\News\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

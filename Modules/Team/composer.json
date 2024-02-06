@@ -1,0 +1,26 @@
+{
+    "name": "biib/team-module",
+    "description": "Team module.",
+    "type": "laravel-module",
+    "version": "v3.0.0",
+    "authors": [
+        {
+            "name": "biib"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Team\\Providers\\TeamServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Team\\": ""
+        }
+    }
+}

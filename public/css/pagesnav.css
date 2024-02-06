@@ -1,0 +1,110 @@
+.pagesnav p{    
+    font-size: 45px;
+}
+
+  .wrapper {
+      max-width: 700px;
+      margin: 50px auto;
+      padding: 20px 0;
+      background-color: #ecfff3;
+      width: 100%;
+      border-radius: 5px;
+      box-shadow: 3px 10px 15px -12px #333333, -3px 0px 15px -12px #333333;
+  }
+  
+  .tab-content {
+      padding: 10px 20px;
+  }
+  .nav-tabs a {
+      border: 0!important;
+      background-color: transparent!important;
+  }
+  .nav-tabs li.active {
+      border-bottom: 2px solid #5453d2;
+  }
+  .nav-tabs li {
+      border-bottom: 2px solid transparent;
+  }
+  .nav-tabs li a {
+      width: 100%;
+      text-align: center;
+  }
+  ul.nav.nav-tabs {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      overflow: hidden;
+  }
+  .nav-tabs li {
+      flex-basis: 90px;
+      min-width: 90px;
+      display: flex;
+      align-items: flex-start;
+      margin: 0!important;
+  }
+  .tabs-wrapper{
+      position: relative;
+  }
+  span.left, span.right {
+      position: absolute;
+      height: 30px;
+      width: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color:#5453D2;
+      border-radius: 50%;
+      left: -50px;
+      top: 8px;
+      cursor: pointer;
+      color: #ffffff;
+  }
+  span.right{
+   right: -50px;
+   left:unset;
+  
+  }
+  .scroller-btn.inactive {
+      opacity: 0.3;
+      pointer-events: none;
+  }
+
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: var(--primary-blue) !important;
+    padding: 15px;
+    border-radius: 5px;
+    color: var(--bs-white) !important;
+  }
+  .nav-tabs .nav-link {
+    padding: 15px 0px;
+    margin-right: 20px;
+    color: #777 !important;
+    line-height: 22px;
+    font-family: 'josefin-sans';
+    font-size: var(--font-16);
+    transition: all .5s ease;
+    border: 0;
+  }
+  .nav-tabs .nav-link a{
+    color: #777 !important;
+    text-decoration: none;
+  }
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active a {
+    color: var(--bs-white) !important;
+  }
+  
+  @media (max-width: 767px) {
+    .main-tabs {
+        display: flex;
+        text-align: center;
+        flex-wrap: nowrap;
+        padding-bottom: 12px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        scroll-snap-type: x mandatory;
+    }
+    .main-tabs .nav-link{
+        width: 100%;
+    }
+}

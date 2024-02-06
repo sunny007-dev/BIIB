@@ -1,0 +1,14 @@
+{
+    "name": "Gallery",
+    "alias": "gallery",
+    "description": "Gallery module for biib",
+    "keywords": ["galleries", "gallery"],
+    "order": 0,
+    "providers": [
+        "Modules\\Gallery\\Providers\\GalleryServiceProvider",
+        "Modules\\Gallery\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

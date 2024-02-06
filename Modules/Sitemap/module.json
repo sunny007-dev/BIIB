@@ -1,0 +1,14 @@
+{
+    "name": "Sitemap",
+    "alias": "sitemap",
+    "description": "Sitemap module for biib",
+    "keywords": ["sitemaps", "sitemap"],
+    "order": 0,
+    "providers": [
+        "Modules\\Sitemap\\Providers\\SitemapServiceProvider",
+        "Modules\\Sitemap\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

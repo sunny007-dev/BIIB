@@ -1,0 +1,26 @@
+{
+    "name": "biib/testimonial-module",
+    "description": "Testimonial module for Laravel Starter, biib/cms-dashboard.",
+    "type": "laravel-module",
+    "version": "v3.0.0",
+    "authors": [
+        {
+            "name": "BIIB"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Testimonial\\Providers\\TestimonialServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Testimonial\\": ""
+        }
+    }
+}

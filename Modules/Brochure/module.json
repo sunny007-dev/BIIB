@@ -1,0 +1,14 @@
+{
+    "name": "Brochure",
+    "alias": "brochure",
+    "description": "Brochure module for biib",
+    "keywords": ["brochure"],
+    "order": 0,
+    "providers": [
+        "Modules\\Brochure\\Providers\\BrochureServiceProvider",
+        "Modules\\Brochure\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

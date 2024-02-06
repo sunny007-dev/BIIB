@@ -1,0 +1,14 @@
+{
+    "name": "Testimonial",
+    "alias": "testimonial",
+    "description": "Testimonial module for Laravel Starter, nasirkhan/laravel-starter. It can be used with any other Models. One to many polymorphic relation.",
+    "keywords": ["testimonials", "testimonial"],
+    "order": 0,
+    "providers": [
+        "Modules\\Testimonial\\Providers\\TestimonialServiceProvider",
+        "Modules\\Testimonial\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

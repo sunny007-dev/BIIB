@@ -1,0 +1,14 @@
+{
+    "name": "Mou",
+    "alias": "mou",
+    "description": "Mou module for BIIB, biib/cms-dashboard. It can be used with any other Models. One to many polymorphic relation.",
+    "keywords": ["mous", "mou"],
+    "order": 0,
+    "providers": [
+        "Modules\\Mou\\Providers\\MouServiceProvider",
+        "Modules\\Mou\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

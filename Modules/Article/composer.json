@@ -1,0 +1,26 @@
+{
+    "name": "biib/article-module",
+    "description": "Article module with Posts, Categories, Tags, Comments.",
+    "type": "laravel-module",
+    "version": "v3.0.0",
+    "authors": [
+        {
+            "name": "biib"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Article\\Providers\\ArticleServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Article\\": ""
+        }
+    }
+}

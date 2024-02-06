@@ -1,0 +1,14 @@
+{
+    "name": "Banner",
+    "alias": "banner",
+    "description": "Banner module for biib",
+    "keywords": ["banners", "banner"],
+    "order": 0,
+    "providers": [
+        "Modules\\Banner\\Providers\\BannerServiceProvider",
+        "Modules\\Banner\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

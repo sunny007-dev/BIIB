@@ -1,0 +1,14 @@
+{
+    "name": "Team",
+    "alias": "team",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Team\\Providers\\TeamServiceProvider",
+        "Modules\\Team\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

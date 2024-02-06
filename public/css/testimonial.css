@@ -1,0 +1,148 @@
+.testimonialpage {
+    background-color: #F9F9F9;
+}
+.testimonialpage .pagesHeading {
+    font-family: "josefin-sans";
+    font-size: var(--font-36);
+    line-height: 48px;
+    color: var(--primary-blue);
+}
+
+.testimonialpage p {
+    line-height: 32px;
+}
+.testimonialpage .pagesCard .imge .guestPic{
+    height: 302px;
+    object-fit: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 79%, 0% 100%);
+}
+.testimonialpage .pagesCard .imge{
+    position: relative;
+}
+.testimonialpage .pagesCard .imge .playIcon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}
+.testimonialpage .pagesCard .imge .playIcon img{
+    width: 78px;
+    height: 78px;
+ }
+/*.testimonialpage .pagesCard .card-body .card-title{*/
+/*    font-size: var(--font-24);*/
+/*    line-height: 32px;*/
+/*    color: var(--primary-blue);*/
+/*    min-height: 64px;*/
+/*    font-family: 'josefin-sans';*/
+/*    overflow: hidden;*/
+/*    display: -webkit-box !important;*/
+/*    -webkit-line-clamp: 2;*/
+/*    -webkit-box-orient: vertical;*/
+/*    white-space: normal;*/
+/*}*/
+/*.testimonialpage .pagesCard .card-body .card-text{*/
+/*    font-size: var(--font-16);*/
+/*    line-height: 28px;*/
+/*    color: #3F3F3F;*/
+/*    display: -webkit-box !important;*/
+/*    -webkit-line-clamp: 3;*/
+/*    -webkit-box-orient: vertical;*/
+/*    white-space: normal;*/
+/*    overflow: hidden;*/
+/*    height: 88px;*/
+/*}*/
+.testimonialpage .pagesCard .card-body {
+    height: 208px;
+}
+.testimonialpage .pagesCard .card-body .card-title{
+  font-size: var(--font-24);
+  line-height: 32px;
+  color: var(--primary-blue);
+  min-height: 64px;
+  font-family: 'josefin-sans';
+  overflow: hidden;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+.testimonialpage .pagesCard .card-body .card-name{
+  color: #3F3F3F;
+  font-family: 'josefin-sans';
+  font-size: 18px;
+}
+.testimonialpage .pagesCard .card-body .card-text{
+  font-size: var(--font-16);
+  line-height: 28px;
+  color: #3F3F3F;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+  overflow: hidden;
+}
+.testimonialpage .pagesCard .card-body .student-batch{
+    font-size: var(--font-16);
+    line-height: 28px;
+    color: #3F3F3F;
+}
+.testimonialpage .pagesCard:hover .imge .playIcon {
+    visibility: visible;
+}
+.testimonialpage .pagesCard:hover {
+    background-color: var(--primary-blue);
+    cursor: pointer;
+    transition: all .3s linear;
+}
+/* .testimonialpage .pagesCard:hover .imge .guestPic {
+    opacity: .6;
+} */
+
+.testimonialpage .pagesCard:hover .imge .myexpericencePic {
+    opacity: .6;
+}
+
+.testimonialpage .pagesCard:hover .card-title,
+.testimonialpage .pagesCard:hover .card-text,
+.testimonialpage .pagesCard:hover .card-name,
+.testimonialpage .pagesCard:hover .card-body .student-batch{
+    color: var(--bs-white);
+}
+
+.testimonialpage .accordion .accordion-button:not(.collapsed) {
+    color: var(--primary-blue);
+    background-color: var(--primary-green);
+}
+.testimonialpage .accordion .accordion-button:not(.collapsed):focus {
+    box-shadow: none;
+}
+.testimonialpage .accordion .accordion-button:not(.collapsed) .accordion-body {
+    border: 2px solid var(--primary-green);
+    border-top: 0;
+}
+/** Sorting List **/
+.testimonialpage .sortingList table thead{
+    background-color: var(--primary-green);
+    color: var(--bs-white);
+    font-size: var(--font-16);
+    font-weight: var(--font-600);
+    font-family: 'josefin-sans';
+}
+.testimonialpage .sortingList table tbody{
+    background-color: var(--primary-blue);
+    color: var(--bs-white);
+    font-size: var(--font-14);
+    font-family: 'josefin-sans';
+}
+/** Sorting List End **/
+
+
+@media (max-width: 767px) {
+    .testimonialpage .pagesHeading {
+        font-size: var(--font-28);
+        line-height: 34px;
+    }
+    .testimonialpage p {
+        text-align: justify;
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Slider",
+    "alias": "slider",
+    "description": "Slider module for biib",
+    "keywords": ["sliders", "slider"],
+    "order": 0,
+    "providers": [
+        "Modules\\Slider\\Providers\\SliderServiceProvider",
+        "Modules\\Slider\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

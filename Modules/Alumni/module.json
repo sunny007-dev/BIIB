@@ -1,0 +1,14 @@
+{
+    "name": "Alumni",
+    "alias": "alumni",
+    "description": "Alumni module for biib",
+    "keywords": ["alumni"],
+    "order": 0,
+    "providers": [
+        "Modules\\Alumni\\Providers\\AlumniServiceProvider",
+        "Modules\\Alumni\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,14 @@
+{
+    "name": "PageMenu",
+    "alias": "pageMenu",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\PageMenu\\Providers\\PageMenuServiceProvider",
+        "Modules\\PageMenu\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

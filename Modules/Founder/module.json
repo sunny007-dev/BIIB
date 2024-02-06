@@ -1,0 +1,14 @@
+{
+    "name": "Founder",
+    "alias": "founder",
+    "description": "Founder module for biib",
+    "keywords": ["founders", "founder"],
+    "order": 0,
+    "providers": [
+        "Modules\\Founder\\Providers\\FounderServiceProvider",
+        "Modules\\Founder\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
